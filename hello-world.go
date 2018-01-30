@@ -1,3 +1,6 @@
+/* Start of my Go Programming experience
+Simple Hello World example which has been modified to show use of own library*/
+
 package main
 
 import (
@@ -8,5 +11,4 @@ import (
 
 func main() {
 	fmt.Println(stringutil.Reverse("!oG ,olleH"))
-	packages()
 }

@@ -1,3 +1,13 @@
+/*
+Every Go program is made up of packages.
+
+Programs start running in package main.
+
+This program is using the packages with import paths "fmt" and "math/rand".
+
+By convention, the package name is the same as the last element of the import path.
+*/
+
 package main
 
 import (
@@ -5,6 +15,6 @@ import (
 	"math/rand"
 )
 
-func packages() {
-	fmt.Println("My favourite number is", rand.Intn(10))
+func main() {
+	fmt.Println("My favorite number is", rand.Intn(10))
 }
