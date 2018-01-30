@@ -8,4 +8,5 @@ import (
 
 func main() {
 	fmt.Println(stringutil.Reverse("!oG ,olleH"))
+	packages()
 }
